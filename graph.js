@@ -1,7 +1,7 @@
 function main() {
   const FIG = document.getElementsByTagName('figure')[0];
 
-  Plotly.newPlot( figure, [
+  Plotly.newPlot( FIG, [
     {
       x: [1, 2, 3, 4],
       y: [2, 4, 8, 16]
