@@ -9,3 +9,5 @@ Plotly.newPlot( figure, [
     margin: {t: 0}
   },
 ]);
+
+console.log(Plotly.BUILD)
